@@ -4,11 +4,12 @@
  
 body
 {
-	width: 1300px;
+	max-width: 1300px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 a {
@@ -148,6 +149,9 @@ a {
 	color: white;
 	font-weight: bold;
 	text-align: center;
+	line-height: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -228,14 +232,14 @@ a {
 
 .slider_content_container {
 	height: 775px;
-	width: 1300px;
+	max-width: 1300px;
 	position: relative;
 	text-align: center;
 }
 
 .slider_image_content {
 	text-align: center;
-	width: 50%;
+	width: 550px;
 	color: white;
 	position: relative;
 	margin: auto;
@@ -326,9 +330,9 @@ a {
 		position: relative;
 		display: flex;
 		justify-content: flex-end;
-}
+	}
 
-	.footer_contact_container{
+	.footer_contact_container {
 		float: right;
 	}
 
@@ -339,5 +343,17 @@ a {
 	.footer_awards {
 		flex-basis: 45%;
 		text-align: right;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	.nav_right {
+		flex-basis: 70%;
+	}
+
+	.nav_left {
+		flex-basis: 30%;
 	}
 }
