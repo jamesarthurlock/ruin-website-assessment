@@ -356,4 +356,9 @@ a {
 	.nav_left {
 		flex-basis: 30%;
 	}
+
+	.content {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
 }
